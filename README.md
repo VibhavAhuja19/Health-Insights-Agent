@@ -104,3 +104,31 @@ hia/
 │       └── pdf_extractor.py   # PDF processing
 ```
 
+###  🐳 Docker Deployment
+
+## Quick Start with Docker
+
+# 📥 Pull from Docker Hub
+
+```
+# Pull the latest image
+docker pull vibhav914/hia-health-insights:latest
+
+# Or pull specific version
+docker pull vibhav914/hia-health-insights:v1.0.0
+```
+
+# 🚀 Run the Application
+
+```
+# Run in detached mode (background)
+docker run -d -p 8501:8501 --name hia-app vibhav914/hia-health-insights:latest
+
+# Or run with logs visible
+docker run -p 8501:8501 --name hia-app vibhav914/hia-health-insights:latest
+
+# Run with auto-restart
+docker run -d -p 8501:8501 --restart unless-stopped --name hia-app vibhav914/hia-health-insights:latest
+```
+
+
