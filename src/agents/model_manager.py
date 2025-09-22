@@ -17,7 +17,6 @@ class ModelManager:
     Manages AI model selection, fallback, and rate limits.
     Implements an agent-based approach for model management.
     """
-    
     MODEL_CONFIG = {
         ModelTier.PRIMARY: {
             "provider": "groq",
