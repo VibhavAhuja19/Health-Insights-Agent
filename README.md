@@ -114,8 +114,6 @@ hia/
 # Pull the latest image
 docker pull vibhav914/hia-health-insights:latest
 
-# Or pull specific version
-docker pull vibhav914/hia-health-insights:v1.0.0
 ```
 
 ### 🚀 Run the Application
